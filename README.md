@@ -27,3 +27,8 @@ Create nestable extensions for your gradle plugins that are assignable via both 
 ### [groovykit](https://github.com/episode6/groovykit): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.hackit.groovykit/gk-files.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.hackit.groovykit%22)
 
 Some simple groovy utilities and extensions, mostly used for testing.
+
+## Other
+### [hackit-quickstart](https://github.com/episode6/hackit-quickstart):
+
+A gradle project generator written in go. Generates gradle projects that use episode6's hackit open source tools, namely gdmc and deployable.

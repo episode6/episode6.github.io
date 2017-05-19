@@ -8,6 +8,10 @@ An extensible auto-mocker for java & junit designed to simplify your unit tests.
 
 A simple an efficient logging library for Java and Android, inspired by JakeWharton's Timber library.
 
+### [typed (for Android)](https://github.com/episode6/typed): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.hackit.typed/typed-core.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.hackit.typed%22)
+
+Bring sanity to your key-value stores by defining your keys with types and defaults, so your call-sites don't have to.
+
 ## Gradle Plugins
 
 ### [deployable](https://github.com/episode6/deployable): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.hackit.deployable/deployable.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.hackit.deployable%22)

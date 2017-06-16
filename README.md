@@ -37,6 +37,6 @@ Create nestable extensions for your gradle plugins that are assignable via both 
 Some simple groovy utilities and extensions, mostly used for testing.
 
 ## Other
-### [hackit-quickstart](https://github.com/episode6/hackit-quickstart)
+### [hackit-quickstart](https://github.com/episode6/hackit-quickstart): [![GitHub Release](https://img.shields.io/github/tag/episode6/hackit-quickstart.svg?style=flat-square)](https://github.com/episode6/hackit-quickstart)
 
 A gradle project generator written in go. Generates gradle projects that use episode6's hackit open source tools, namely gdmc and deployable.

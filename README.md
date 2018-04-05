@@ -12,9 +12,6 @@ A simple an efficient logging library for Java and Android, inspired by JakeWhar
 
 Bring sanity to android's key-value stores by defining your keys with types and defaults, so your call-sites don't have to.
 
-### [disposables](https://github.com/episode6/disposables): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.hackit.disposable/disposables-core.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.hackit.disposable%22)
-
-An experimental java library for dealing with objects that need to be disposed.
 
 ## Gradle Plugins
 

@@ -1,5 +1,9 @@
 ## Java Libraries
 
+### [Redux StoreFlow](https://episode6.github.io/redux-store-flow): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.redux/store-flow.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.redux%22)
+
+Yet another kotlin implementation of Redux, backed by StateFlows and Coroutines.
+
 ### [mockspresso](https://episode6.github.io/mockspresso): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.hackit.mockspresso/mockspresso-core.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.hackit.mockspresso%22)
 
 An extensible auto-mocker for java & junit designed to simplify your unit tests. Mockspresso creates your objects for you, letting you drop the constructors from your tests, while still giving you complete control over how your objects are created and what dependencies are provided/injected.

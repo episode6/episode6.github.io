@@ -8,6 +8,10 @@ Yet another kotlin implementation of Redux, backed by StateFlows and Coroutines.
 
 A kotlin re-imagining of mockspresso. A testing tool designed to reduce friction, boiler-plate and brittleness in unit tests. It's like dependency injection for your tests, and completely agnostic to your frameworks & mocking libraries of choice.
 
+### [reflective-mockk](https://episode6.github.io/reflective-mockk): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.reflectivemockk/reflective-mockk.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.reflectivemockk%22)
+
+An extension of [mockK](https://mockk.io/) that allows for programmatic mocking using reflection. If you've been missing mockito's defaultAnswers, then this is the library for you.
+
 ## Prototype Projects
 
 ### [typed2! (for android)](https://episode6.github.io/typed2): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.typed2/core.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.typed2%22)

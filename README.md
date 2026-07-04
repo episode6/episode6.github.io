@@ -20,7 +20,7 @@ A kotlin re-imagining of typed! (for android). Provides an extensible system to 
 
 ### [tacita](https://episode6.github.io/tacita): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.tacita/tacita.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.tacita%22)
 
-A Kotlin Multiplatform library that downloads podcast episodes and losslessly removes dynamically-injected ads by diffing two copies of the same episode.
+A vibecoded Kotlin Multiplatform library that downloads podcast episodes and losslessly removes dynamically-injected ads by diffing two copies of the same episode.
 
 ## Legacy Java Projects
 

@@ -1,3 +1,17 @@
+## Apps
+
+### [Collins](https://episode6.github.io/collins)
+
+A vibecoded, native GTK4/libadwaita agentic development environment to manage, orchestrate and compliment all your [Claude Code](https://claude.com/claude-code) sessions. Unofficial community tool.
+
+### [Podcast Hacker](https://github.com/episode6/podcast-hacker): [![GitHub Release](https://img.shields.io/github/v/release/episode6/podcast-hacker?style=flat-square)](https://github.com/episode6/podcast-hacker/releases/latest)
+
+A vibecoded Kotlin Multiplatform podcast app (Android + Desktop) built on [tacita](https://episode6.github.io/tacita) that cuts the dynamically-injected ads out of your episodes.
+
+### [Headache Tracker](https://github.com/episode6/headache-tracker): [![GitHub Release](https://img.shields.io/github/v/release/episode6/headache-tracker?style=flat-square)](https://github.com/episode6/headache-tracker/releases/latest)
+
+A vibecoded, local-first Android app for logging daily headache severity on a color-coded calendar. Built with Jetpack Compose and Material Design 3.
+
 ## Actively Maintained Libraries
 
 ### [Redux StoreFlow](https://episode6.github.io/redux-store-flow): [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.redux/store-flow.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.redux%22)

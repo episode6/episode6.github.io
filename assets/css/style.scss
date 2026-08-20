@@ -14,6 +14,21 @@
   --e6-muted: #7a848d;
   --e6-rule: #e6e9ec;
   --e6-paper: #fbfbfa;
+  --e6-header: #fff;
+}
+
+/* Dark palette follows the OS preference. Only the tokens change; the
+   orange accent stays put. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --e6-orange-dark: #ff8533;
+    --e6-ink: #f2f2f0;
+    --e6-text: #c3c9ce;
+    --e6-muted: #8f99a3;
+    --e6-rule: #30363d;
+    --e6-paper: #15181b;
+    --e6-header: #0d0f11;
+  }
 }
 
 body {
@@ -33,7 +48,7 @@ a:focus {
 /* Header: white band, logo, thin orange rule --------------------------- */
 .page-header {
   color: var(--e6-ink);
-  background-color: #fff;
+  background-color: var(--e6-header);
   background-image: none;
   border-bottom: 4px solid var(--e6-orange);
   padding: 3rem 1rem 2.25rem;
@@ -42,10 +57,13 @@ a:focus {
   display: inline-block;
   line-height: 0;
 }
-.project-logo img {
+.site-logo {
   width: 248px;
   max-width: 80vw;
   height: auto;
+  /* Letters use currentColor so they flip with the palette; the "6" keeps
+     its own orange fill. */
+  color: var(--e6-ink);
 }
 .project-tagline {
   margin: 1rem 0 0;

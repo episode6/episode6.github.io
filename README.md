@@ -1,6 +1,6 @@
 ## Apps
 
-### [Collins](https://episode6.github.io/collins)
+### [Collins](https://episode6.github.io/collins): [![GitHub Release](https://img.shields.io/github/v/release/episode6/collins?style=flat-square)](https://github.com/episode6/collins/releases/latest)
 
 A vibecoded, native GTK4/libadwaita agentic development environment to manage, orchestrate and compliment all your [Claude Code](https://claude.com/claude-code) sessions. Unofficial community tool.
 

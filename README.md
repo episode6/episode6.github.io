@@ -14,7 +14,7 @@ A local-first Android app for logging daily headache severity on a color-coded c
 
 ## Actively Maintained Libraries
 
-### [Redux StoreFlow](https://episode6.github.io/redux-store-flow) [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.redux/store-flow.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.redux%22)
+### [redux-store-flow](https://episode6.github.io/redux-store-flow) [![Maven Central](https://img.shields.io/maven-central/v/com.episode6.redux/store-flow.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.episode6.redux%22)
 
 Yet another kotlin implementation of Redux, backed by StateFlows and Coroutines.
 

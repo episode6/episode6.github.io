@@ -1,0 +1,177 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+/* episode6 brand overrides -------------------------------------------------
+   Brand orange (#FF6600) is taken from the "6" in the logo / favicon. */
+
+:root {
+  --e6-orange: #ff6600;
+  --e6-orange-dark: #cc5200;
+  --e6-ink: #1b1f23;
+  --e6-text: #4a5259;
+  --e6-muted: #7a848d;
+  --e6-rule: #e6e9ec;
+  --e6-paper: #fbfbfa;
+  --e6-header: #fff;
+}
+
+/* Dark palette follows the OS preference. Only the tokens change; the
+   orange accent stays put. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --e6-orange-dark: #ff8533;
+    --e6-ink: #f2f2f0;
+    --e6-text: #c3c9ce;
+    --e6-muted: #8f99a3;
+    --e6-rule: #30363d;
+    --e6-paper: #15181b;
+    --e6-header: #0d0f11;
+  }
+}
+
+body {
+  color: var(--e6-text);
+  background-color: var(--e6-paper);
+}
+
+a {
+  color: var(--e6-orange-dark);
+}
+a:hover,
+a:focus {
+  color: var(--e6-orange);
+  text-decoration: underline;
+}
+
+/* Header: white band, logo, thin orange rule --------------------------- */
+.page-header {
+  color: var(--e6-ink);
+  background-color: var(--e6-header);
+  background-image: none;
+  border-bottom: 4px solid var(--e6-orange);
+  padding: 3rem 1rem 2.25rem;
+}
+.project-logo {
+  display: inline-block;
+  line-height: 0;
+}
+.site-logo {
+  width: 248px;
+  max-width: 80vw;
+  height: auto;
+  /* Letters use currentColor so they flip with the palette; the "6" keeps
+     its own orange fill. */
+  color: var(--e6-ink);
+}
+.project-tagline {
+  margin: 1rem 0 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--e6-muted);
+  opacity: 1;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Content --------------------------------------------------------------- */
+.main-content {
+  max-width: 52rem;
+}
+
+/* Section headings: small-caps label with an orange tick */
+.main-content h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--e6-muted);
+  border-bottom: 1px solid var(--e6-rule);
+}
+.main-content h2:first-child {
+  margin-top: 0.5rem;
+}
+.main-content h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  margin-right: 0.6em;
+  vertical-align: 0.05em;
+  background: var(--e6-orange);
+  border-radius: 2px;
+}
+
+/* Project headings: name + chips on one line */
+.main-content h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.6rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--e6-ink);
+}
+.main-content h3 a:not(:has(img)) {
+  color: var(--e6-ink);
+}
+.main-content h3 a:not(:has(img)):hover {
+  color: var(--e6-orange);
+}
+.main-content h3 img {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+}
+.main-content h3 a:has(img) {
+  line-height: 0;
+}
+/* On narrow screens the chips would wrap anyway, so put them on their own
+   row under the title instead of trailing it. */
+/* The vibecoded tag stays beside the title; version chips get their own
+   row beneath it. */
+.main-content h3 > img {
+  order: 1;
+}
+.main-content h3 a:has(img) {
+  order: 2;
+  flex-basis: 100%;
+}
+.main-content h3 + p {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* Footer ---------------------------------------------------------------- */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--e6-rule);
+  font-size: 0.9rem;
+  color: var(--e6-muted);
+}
+.site-footer-owner {
+  display: block;
+  font-weight: 700;
+}
+.site-footer a {
+  color: var(--e6-muted);
+}
+.site-footer a:hover {
+  color: var(--e6-orange);
+}
